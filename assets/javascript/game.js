@@ -18,9 +18,21 @@ $ (function () {
   $ ('h2 span#winsNumber').text (wins);
   $ ('h2 span#lossesNumber').text (looses);
 
-  // Number to get
-  //   generatedNumber = blueNumber = greenNumber = getRandomInt (25, 36);
-  //   redNumber = generatedNumber (35, 50);
-
-  $ ('.images').on ('click', function () {});
+  $ ('.images')
+    .on ('click', '#blue', function () {
+      result += blueNumber;
+      console.log (result);
+    })
+    .on ('click', '#green', function () {
+      result += greenNumber;
+      console.log (result);
+    })
+    .on ('click', '#red', function () {
+      result += redNumber;
+      console.log (result);
+    })
+    .on ('click', '#yellow', function () {
+      result += yellowNumber;
+      console.log (result);
+    });
 });
