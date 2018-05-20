@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../images/precisous-stones.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.header {
+    background-color: #6D6027;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px;
+    /* Vertically center the text there */
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+.footer-bg {
+    background-color: #6D6027;
+    color: #000;
+    border-radius: 0;
+}
