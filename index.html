@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col border border-secondary my-3 py-3 text-center bg-secondary">
+                <header>
+                    <h1>Crystal Collector</h1>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col my-3 py-3 instructions">
+                <div class="row">
+                    <div class="col border border-secondary">
+                        <h3 class="text-center mt-2">Here's how you play the game</h3>
+                        </br>
+                        <ol>
+                            <li>You will be given a random number at the start of the game.
+                                <em>"Number To Get"</em>
+                            </li>
+                            <li>There are four crystals below.</li>
+                            <ul>
+                                <li id="blue" class="text-primary">Blue</li>
+                                <li id="green" class="text-success">Green</li>
+                                <li id="red" class="text-danger">Red</li>
+                                <li id="yellow" class="text-warning">Yellow</li>
+                            </ul>
+                            <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+                            <li>You win the game by matching your total score to the random number.</li>
+                            <li>You lose the game if your total score goes above the random number.</li>
+                            <li>The value of each crystal is hidden from you until you click on it.</li>
+                            <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 border border-secondary my-4 py-3 mr-4">
+                        <h2>Number To Get:
+                            <span id="generatedNumber"></span>
+                        </h2>
+                    </div>
+                    <div class="col-md-5 border border-secondary my-4 py-3 mr-4">
+                        <h2>Wins:
+                            <span id="winsNumber"></span>
+                        </h2>
+                        <h2>Losses:
+                            <span id="lossesNumber"></span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 border border-secondary my-4 py-3 bg-secondary">
+                        <div class="images d-flex justify-content-around">
+                            <img src="assets/images/blue.png" class=crystalImage id="blue" alt="Blue Crystal">
+                            <img src="assets/images/green.png" class=crystalImage id="green" alt="Green Crystal">
+                            <img src="assets/images/red.png" class=crystalImage id="red" alt="Red Crystal">
+                            <img src="assets/images/yellow.png" class=crystalImage id="yellow" alt="Yellow Crystal">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 border border-secondary my-4 py-3 mr-4">
+                        <h2>Total Score:
+                            <span id="totalScore"></span>
+                        </h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <footer class="footer text-center footer-bg">
+                    <div class="container">
+                        <span>&copy; 2018 Stanley Louis.</span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
