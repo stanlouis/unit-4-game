@@ -1,12 +1,15 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: url('../images/precisous-stones.jpg');
+    font-family: 'Roboto', sans-serif;
+    /* background: url('../images/precisous-stones.jpg'); */
+    background: #fff;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+h1,
+h2 {
+    font-family: 'Open sans', sans-serif;
+}
 
 html {
     position: relative;
@@ -23,8 +26,15 @@ h2 {
 }
 
 .header {
-    background-color: #6D6027;
+    background: #0575E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -37,8 +47,31 @@ h2 {
 
 /* Custom page CSS
 -------------------------------------------------- */
+
 .footer-bg {
-    background-color: #6D6027;
-    color: #000;
+    background: #0575E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
     border-radius: 0;
+}
+
+ul.color-list {
+    list-style: katakana;
+}
+
+.yellow {
+    color: yellow
+}
+
+.info {
+    color: #141823;
+}
+
+img {
+    height: 100px;
+    width: auto
 }
