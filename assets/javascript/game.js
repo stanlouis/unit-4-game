@@ -22,6 +22,7 @@ $ (function () {
     blueNumber = getRandomInt (1, 12);
     greenNumber = getRandomInt (1, 12);
     redNumber = getRandomInt (1, 12);
+    yellowNumber = getRandomInt (1, 12);
     result = 0;
     $ ('h2 span#totalScore').text (result);
   }
